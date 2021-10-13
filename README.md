@@ -28,7 +28,20 @@ _This MVC web application has the following functionality:_
 
 ## Setup/Installation Requirements
 
-* _._
+* **Before taking the following installation steps, ensure you have [C#, .NET](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-c-and-net), [dotnet script](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-dotnet-script) and [MySql](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-and-configuring-mysql)    installed on your computer.** 
+
+* _Clone this repository._
+* _Open your terminal._
+* _Navigate to the directory (such as your Desktop folder) where you want the cloned repository to be housed._
+* _Run `git clone https://github.com/webquiza/HairSalon.Solution.git`._
+* _Press Enter._
+* _Navigate to `HairSalon` directory._
+* _Run `dotnet restore` to retrieve and install the packages we listed in .csproj._
+* _Run `dotnet build` to build the project._
+* _Run `dotnet run` to start up your local host (http://localhost:5000)_
+
+* **Import database**
+
 * _._
 * _._
 * _._
