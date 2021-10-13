@@ -2,7 +2,7 @@
 
 #### By _**Carlos Urquiza**_
 
-#### _{Brief description of application}_
+#### _MVC web application for Eau Claire's Salon._
 
 ## Technologies Used
 
@@ -18,14 +18,13 @@
 
 ## Description
 
-_This application has the following functionality:_
+_This MVC web application has the following functionality:_
 
-* _._
-* _._
-* _._
-* _._
-* _._
-* _._
+* _As a salon owner, I can see a list of all stylists._
+* _As a salon owner, I can select a stylist, see their details and see a list of clients that belong to that stylist._
+* _As a salon owner, I can add new stylist to the application._
+* _As a salon owner, I can add new clients to a specific stylist._
+* _As a salon owner, I cannot add a client if no stylists have been added._
 
 ## Setup/Installation Requirements
 
