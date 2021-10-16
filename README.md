@@ -28,25 +28,40 @@ _This MVC web application has the following functionality:_
 
 ## Setup/Installation Requirements
 
-* **Before taking the following installation steps, ensure you have [C#, .NET](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-c-and-net), [dotnet script](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-dotnet-script) and [MySql](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-and-configuring-mysql)    installed on your computer.** 
+#### **Before taking the following installation steps, ensure you have [C#, .NET](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-c-and-net), [dotnet script](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-dotnet-script) and [MySql](https://www.learnhowtoprogram.com/c-and-net-part-time-c-and-react-track/getting-started-with-c/installing-and-configuring-mysql)    installed on your computer.** 
 
 * _Clone this repository._
 * _Open your terminal._
 * _Navigate to the directory (such as your Desktop folder) where you want the cloned repository to be housed._
 * _Run `git clone https://github.com/webquiza/HairSalon.Solution.git`._
 * _Press Enter._
+
+#### **Import database**
+
+* _Launch your MySQL Workbench._
+* _Navigate to the Navigator > Administration window and select the Data Import/Restore option._
+* _In Import Options section select Import from Self-Contained File._
+* _Navigate to the `HairSalon.Solution` folder_
+* _Select `carlos_urquiza.sql` as the dump file._
+* _Click Ok._
+* _From the Import Progress tab, click Start Import which is located at the bottom right section of the window._
+* _Once import completes, go to the Navigator > Schemas tab. Right click to select Refesh All. You will now see the database appear._
+* _Connect the database to the project by creating a `appsettings.json` file inside `HairSalon.Solution/HairSalon`._
+* _Within your new `appsettings.json` file, add the following piece of code. Note that you will need to enter the password you created for your specific MySQL configuration (remove the []):_
+
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=3306;database=carlos_urquiza;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+  }
+}
+```
+#### **View project in local host**
+
 * _Navigate to `HairSalon` directory._
 * _Run `dotnet restore` to retrieve and install the packages we listed in .csproj._
 * _Run `dotnet build` to build the project._
 * _Run `dotnet run` to start up your local host (http://localhost:5000)_
-
-* **Import database**
-
-* _._
-* _._
-* _._
-* _._
-* _._
 
 ## Known Bugs
 
