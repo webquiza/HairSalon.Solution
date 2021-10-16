@@ -41,13 +41,13 @@ _This MVC web application has the following functionality:_
 * _Launch your MySQL Workbench._
 * _Navigate to the Navigator > Administration window and select the Data Import/Restore option._
 * _In Import Options section select Import from Self-Contained File._
-* _Navigate to the `HairSalon.Solution` folder_
+* _Navigate to the `HairSalon.Solution` folder._
 * _Select `carlos_urquiza.sql` as the dump file._
 * _Click Ok._
 * _From the Import Progress tab, click Start Import which is located at the bottom right section of the window._
 * _Once import completes, go to the Navigator > Schemas tab. Right click to select Refesh All. You will now see the database appear._
 * _Connect the database to the project by creating a `appsettings.json` file inside `HairSalon.Solution/HairSalon`._
-* _Within your new `appsettings.json` file, add the following piece of code. Note that you will need to enter the password you created for your specific MySQL configuration (remove the []):_
+* _Within your new `appsettings.json` file, add the following piece of code. Note that you will need to enter the password you created for your specific MySQL configuration ( remove the [ ] ):_
 
 ```
 {
@@ -61,7 +61,7 @@ _This MVC web application has the following functionality:_
 * _Navigate to `HairSalon` directory._
 * _Run `dotnet restore` to retrieve and install the packages we listed in .csproj._
 * _Run `dotnet build` to build the project._
-* _Run `dotnet run` to start up your local host (http://localhost:5000)_
+* _Run `dotnet run` to start up your local host (http://localhost:5000)._
 
 ## Known Bugs
 
